@@ -1,12 +1,8 @@
 <!-- 제목 -->
 ## SNS
-
-<!-- 프로젝트 대표 이미지 -->
 <div align="center">
     <img  style="width: 50%" src="../toys-images/sns/메인 이미지1.png">
 </div>
-
-<!-- 홈페이지 링크 -->
 <div align=center>
     <h3>
         🌐 시연영상
@@ -17,9 +13,8 @@
 <br>
 
 ## 👨🏻‍🏫 프로젝트 소개
-
 <details>
-<summary><b> 📌 프로젝트 설명</b></summary>
+<summary><b> 📌 프로젝트 개요</b></summary>
 
 - NodeJS로 SNS 기본 기능 구현
 - Passport(local, google), cookie-session 인증
@@ -66,6 +61,8 @@ npm start
 
 <details>
 <summary><b> 💻 기술스택</b></summary>
+
+<br>
 
 | **Category** |**Skills**| 
 |-------------|---------|

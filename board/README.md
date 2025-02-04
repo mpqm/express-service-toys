@@ -1,9 +1,4 @@
-<!-- 제목 -->
-<p align="center">
-    board
-</p>
-
-<!-- 프로젝트 대표 이미지 -->
+# board
 <div align="center">
   <p align="center">
     <img src="../toys-images/board/시연이미지1.png" align="center" width="35%">
@@ -14,8 +9,6 @@
     <img src="../toys-images/board/시연이미지2.png" align="center" width="35%">
   </p>
 </div>
-
-<!-- 홈페이지 링크 -->
 <div align=center>
     <h3>
         🌐 시연영상
@@ -25,22 +18,22 @@
 
 <br>
 
-## 👨🏻‍🏫 프로젝트 개요
+## 👨🏻‍🏫 프로젝트 소개
 
 <details>
-	<summary><b> 프로젝트 소개</b></summary>
-    <ul>
-        <li>패스워드 인증기반 글(작성, 수정, 삭제, 조회), 댓글(작성, 삭제)을 가진 게시판 서비스 앱
-        </li>
-        <li>NodeJs, Express, MongoDB, 템플릿엔진인 express-handlebars를 사용해 게시판 서비스 앱 구축
-        </li>
-    </ul>
+<summary><b> 📌 프로젝트 개요</b></summary>
+<br>
+
+- 패스워드 인증기반 글(작성, 수정, 삭제, 조회), 댓글(작성, 삭제)을 가진 게시판 서비스 앱
+- NodeJs, Express, MongoDB, 템플릿엔진인 express-handlebars를 사용해 게시판 서비스 앱 구축
+
 </details>
 
 <br>
 
 <details>
-	<summary><b> 프로젝트 실행</b></summary>
+<summary><b> 🏃 프로젝트 실행</b></summary>
+<br>
 
 ```bash
 # prerequisites: npm, node, mongodb(docker)
@@ -56,33 +49,28 @@ npm start
 <br>
 
 <details>
-	<summary><b> 주요 기능 설명</b></summary>
-    <ul>
-        <b> 게시글 </b>
-        <li>게시글 작성시 비밀번호 해쉬 처리후 DB저장
-        </li>
-        <li>게시글 상세보기를 통해 게시물 정보(댓글, 작성자, 작성일자 등)확인
-        </li>
-        <li>게시글 수정, 삭제시 check-pasword API 을 통해 비인가적인 삭제 호출 막음
-        </li>
-        <b> 댓글 </b>
-        <li> DB의 Post에 배열 형식으로 Post DB에 존재 
-        </li>
-        <li>댓글 작성시 비밀번호 해쉬 처리후 Post DB destruct 후 저장
-        </li>
-        <li>댓글 삭제시 2중 쿼리사용 API를 통해 비밀번호 인증후 삭제
-        </li>
-        <b> 메인 리스트</b>
-        <li>리스트에서 게시글 목록, 검색, 페이지 네이션
-        </li>
-        <li>페이지네이션구현 -> utils/paginator.js 참조
-        </li>
-    </ul>
+<summary><b> 🚀 주요 기능 설명</b></summary>
+<br>
+
+- 게시글
+    - 게시글 작성시 비밀번호 해쉬 처리후 DB저장
+    - 게시글 상세보기를 통해 게시물 정보(댓글, 작성자, 작성일자 등)확인
+    - 게시글 수정, 삭제시 check-pasword API 을 통해 비인가적인 삭제 호출 막음
+- 댓글
+    - DB의 Post에 배열 형식으로 Post DB에 존재 
+    - 댓글 작성시 비밀번호 해쉬 처리후 Post DB destruct 후 저장
+    - 댓글 삭제시 2중 쿼리사용 API를 통해 비밀번호 인증후 삭제
+- 메인 리스트
+    - 리스트에서 게시글 목록, 검색, 페이지 네이션
+    - 페이지네이션구현 -> utils/paginator.js 참조
+
 </details>
 
 <br>
 
-## 💻 기술스택
+<details>
+<summary><b> 💻 기술 스택</b></summary>
+<br>
 
 | **Category** |**Skills**| 
 |-------------|---------|
@@ -91,3 +79,5 @@ npm start
 |**Backend**| ![express](https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white)  |
 | **Database**| ![MongoDB](https://img.shields.io/badge/mongodb-47A248?style=for-the-badge&logo=mongodb&logoColor=white)|
 | **Env**|![npm](https://img.shields.io/badge/npm-D24939?style=for-the-badge&logo=npm&logoColor=white) ![Docker](https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) 
+
+</details>

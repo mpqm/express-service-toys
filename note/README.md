@@ -1,14 +1,7 @@
-<!-- 제목 -->
-<p align="center">
-    note
-</p>
-
-<!-- 프로젝트 대표 이미지 -->
+# note
 <div align="center">
     <img  style="width: 50%" src="../toys-images/note/메인 이미지1.png">
 </div>
-
-<!-- 홈페이지 링크 -->
 <div align=center>
     <h3>
         🌐 시연영상
@@ -18,21 +11,21 @@
 
 <br>
 
-## 👨🏻‍🏫 프로젝트 개요
+## 👨🏻‍🏫 프로젝트 소개
 <details>
-	<summary><b> 프로젝트 소개</b></summary>
-    <ul>
-        <li>MognDB Object Id를 통한 개인노트서비스, 세션 인증, express 기반 REST API설계
-        </li>
-        <li>React, NodeJs, Express, MongoDB, TypeScript를 사용한 MERN 스택 앱 구축
-        </li>
-    </ul>
+<summary><b> 📌 프로젝트 개요</b></summary>
+<br>
+
+- MognDB Object Id를 통한 개인노트서비스, 세션 인증, express 기반 REST API설계
+- React, NodeJs, Express, MongoDB, TypeScript를 사용한 MERN 스택 앱 구축
+
 </details>
 
 <br>
 
 <details>
-	<summary><b> 프로젝트 실행</b></summary>
+<summary><b> 🏃 프로젝트 실행</b></summary>
+<br>
 
  ```bash
  # prerequisites: npm, node, MongoDB(docker)
@@ -52,28 +45,25 @@
 <br>
 
 <details>
-	<summary><b> 주요 기능 설명</b></summary>
-    <ul>
-        <b> User </b>
-        <li>User별 MongoDB Obj ID를 통해 자신만의 NotePage를 가짐
-        </li>
-        <li>회원가입, 로그인/아웃, DB 저장 세션 인증 구현
-        </li>
-        <li>react-hook을 이용한 커스텀 유효성검증 로그인, 회원가입용 Form 객체 구현
-        </li>
-        <b> Note </b>
-        <li>NOTE 삭제, 작성, 수정, 조회
-        </li>
-        <li>MongoDB Object Id를 통해 User ObectId를 기준으로 개인 식별
-        </li>
-        <li>react-bootstrap Modal을 이용한 Note 작성, 수정 컴포넌트 구현
-        </li>
-    </ul>
+<summary><b> 🚀 주요 기능 설명</b></summary>
+<br>
+
+- User 
+    - User별 MongoDB Obj ID를 통해 자신만의 NotePage를 가짐
+    - 회원가입, 로그인/아웃, DB 저장 세션 인증 구현
+    - react-hook을 이용한 커스텀 유효성검증 로그인, 회원가입용 Form 객체 구현
+- Note
+    - NOTE 삭제, 작성, 수정, 조회
+    - MongoDB Object Id를 통해 User ObectId를 기준으로 개인 식별
+    - react-bootstrap Modal을 이용한 Note 작성, 수정 컴포넌트 구현
+
 </details>
 
 <br>
 
-## 💻 기술스택
+<details>
+<summary><b> 💻 기술 스택</b></summary>
+<br>
 
 | **Category** |**Skills**| 
 |-------------|---------|
@@ -82,3 +72,5 @@
 |**Backend**| ![express](https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white)|
 | **Database**| ![MongoDB](https://img.shields.io/badge/mongodb-47A248?style=for-the-badge&logo=mongodb&logoColor=white)|
 | **Env**|![npm](https://img.shields.io/badge/npm-D24939?style=for-the-badge&logo=npm&logoColor=white) ![Docker](https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) 
+
+</details>

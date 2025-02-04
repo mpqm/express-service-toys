@@ -1,5 +1,4 @@
-<!-- 제목 -->
-## SNS
+# sns
 <div align="center">
     <img  style="width: 50%" src="../toys-images/sns/메인 이미지1.png">
 </div>
@@ -15,6 +14,7 @@
 ## 👨🏻‍🏫 프로젝트 소개
 <details>
 <summary><b> 📌 프로젝트 개요</b></summary>
+<br>
 
 - NodeJS로 SNS 기본 기능 구현
 - Passport(local, google), cookie-session 인증
@@ -27,6 +27,7 @@
 
 <details>
 <summary><b> 🏃 프로젝트 실행</b></summary>
+<br>
 
 ```bash
 # Prerequisites: npm, node, mongodb(docker), Google Oauth Client
@@ -42,7 +43,8 @@ npm start
 <br>
 
 <details>
-<summary><b> 🚀 주요기능 설명</b></summary>
+<summary><b> 🚀 주요 기능 설명</b></summary>
+<br>
 
 - Post
     - multer를 이용해 파일업로드 가능한 게시글 생성, 게시글 삭제, 수정
@@ -60,8 +62,7 @@ npm start
 <br>
 
 <details>
-<summary><b> 💻 기술스택</b></summary>
-
+<summary><b> 💻 기술 스택</b></summary>
 <br>
 
 | **Category** |**Skills**| 

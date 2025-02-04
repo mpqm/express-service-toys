@@ -1,13 +1,7 @@
-<!-- 제목 -->
-## shop
-
-
-<!-- 프로젝트 대표 이미지 -->
+# shop
 <div align="center">
         <img  style="width: 50%" src="../toys-images/shop/메인 이미지1.png">
 </div>
-
-<!-- 홈페이지 링크 -->
 <div align=center>
     <h3>
         🌐 시연영상
@@ -17,10 +11,10 @@
 
 <br>
 
-
 ## 👨🏻‍🏫 프로젝트 소개
 <details>
 <summary><b> 📌 프로젝트 개요</b></summary>
+<br>
 
 - NodeJS로 쇼핑몰의 기본 기능 구현, admin 페이지 구현
 - Passport(local, google), cookie-session 인증
@@ -33,6 +27,7 @@
 
 <details>
 <summary><b> 🏃프로젝트 실행</b></summary>
+<br>
 
 ```bash
 # Prerequisites: npm, node, mongodb(docker), Google Oauth Client
@@ -48,7 +43,8 @@ npm start
 <br>
 
 <details>
-<summary><b> 🚀 주요기능 설명</b></summary>
+<summary><b> 🚀 주요 기능 설명</b></summary>
+<br>
 
 - Admin
     - 인증 미들웨어를 통해 유저 데이터의 admin필드가 1인경우에 관리자 페이지에 접근 가능
@@ -72,7 +68,6 @@ npm start
 
 <details>
 <summary><b> 💻 기술스택</b></summary>
-
 <br>
 
 | **Category** |**Skills**| 
